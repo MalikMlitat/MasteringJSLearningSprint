@@ -26,11 +26,30 @@ There are several ways to search for elements using JS:
 | class name            | `document.getElementsByClassName("classname")` |
 | CSS selectors         | `document.querySelector("test");`              |
 
-## Code Samples
+## DELIEVERABLES
 
+1. Compound Assignment With Augmented Multiplication
 ```js
-querySelector('h1'): This syntax selects the first h1 element in the document.
-querySelector('#myDiv'): This syntax selects the element with the ID myDiv.
-querySelector('.myClass'): This syntax selects all elements with the class myClass.
-querySelectorAll('h1'): This syntax selects all h1 elements in the document.
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+```
+2. Concatenating Strings with the Plus Equals Operator
+```js
+let myStr = "This is the first sentence."
+myStr += " "
+myStr += "This is the second sentence."
+```
+3. Use Bracket Notation to Find the Nth-to-Last Character in a String
+```js
+let dog = {
+  name: "Spot",
+  numLegs: 4
+};
+console.log(dog.name)
+console.log(dog.numLegs)
 ```
