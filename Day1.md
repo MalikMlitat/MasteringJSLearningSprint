@@ -26,7 +26,7 @@ There are several ways to search for elements using JS:
 | class name            | `document.getElementsByClassName("classname")` |
 | CSS selectors         | `document.querySelector("test");`              |
 
-## DELIEVERABLES
+## DELIVERABLE
 
 1. Compound Assignment With Augmented Multiplication
 ```js

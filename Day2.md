@@ -66,7 +66,7 @@ There are three main types of expressions: _arithmetic, logical, and comparison.
 
 **Comparison expressions** use comparison operators to compare two values and return a Boolean value.
 
-## DELIEVERABLE
+## DELIVERABLE
 
 ### QUESTION #1
 

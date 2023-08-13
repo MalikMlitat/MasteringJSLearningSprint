@@ -14,7 +14,7 @@
 Mutable data is changeable data, contrary to immutable data.
 ## Objects
 Objects have attributes which can be accessed by the dot notation (".")  or brackets notation (obj[name])
-# DELIEVERABLE
+# DELIVERABLE
 
 # Copy Array Items Using slice()
 ```javascript
