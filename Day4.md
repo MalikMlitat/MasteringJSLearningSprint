@@ -12,7 +12,14 @@
     Arrays can be used to store a variety of data types, including strings, numbers, and objects.
 # JS scoping: var vs let
 var variables are mutable as let too, but not in blocks scope
-
+# Event-listeners
+Adds listeners to the DOM e.g.: click-listener
+```javascript
+document.addEventListener('click', ()) =>
+{
+    ...
+})
+```
 # DELIVERABLE
 
 # Global Scope and Functions	
