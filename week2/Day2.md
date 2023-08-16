@@ -8,6 +8,15 @@ functions like ‘once’ and ‘memoize’.
 
 It allows to create self-contained modules that encapsulate their own state and logic !!!
 
+## Async JS (part 1)
+- Promises - the most significant ES6 feature (ECMAScript 6)
+- Asynchronicity - the feature that makes dynamic web applications possible
+
+JavaScript engine has 3 main parts:
+- Thread of execution
+- Memory/variable environment
+- Call stack
+
 ## DELIVERABLE
 
 ### Question 1: Functions and Callbacks
