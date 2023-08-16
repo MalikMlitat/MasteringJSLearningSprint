@@ -53,7 +53,7 @@ function urlSlug(title) {
 }
 ```
 
-### Functions and Callbacks
+### Question 1: Functions and Callbacks
 
 ```js
 function mapAsync(array, callback) {
@@ -90,4 +90,32 @@ const promise = mapAsync(array, mapAsyncFunction);
 promise.then((results) => {
   console.log(results); // should print: [2, 4, 6, 8, 10]
 });
+```
+
+### Question 2: Call Stack and Recursion
+```js
+function sumRange(start, end) {
+  if (start > end) { // the termination condition
+    return 0;
+  } else {
+    return start + sumRange(start + 1, end);
+  }
+}
+```
+
+Usage example:
+
+The call stack is the stack of functions that are currently being executed. When the sumRange function is called, 
+it is pushed onto the call stack. When the sumRange function returns, it is popped off the call stack:
+
+```js
+const sum = sumRange(1, 10);
+
+console.log(sum); // 55
+
+//sumRange(1, 10)
+//sumRange(2, 10)
+//sumRange(3, 10)
+//...
+//sumRange(10, 10)
 ```
